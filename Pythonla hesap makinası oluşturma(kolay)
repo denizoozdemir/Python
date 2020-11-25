@@ -1,0 +1,45 @@
+print("===============Hesap Makinası=============")   
+print("= [1]- Toplama                           =")    
+print("= [2]- Çıkarma                           =")  
+print("= [3]- Çarpma                            =")    
+print("= [4]- Bölme                             =")    
+print("= [5]- Üslü alma                         =")    
+print("= [6]- Çıkış yap                         =")   
+print("==========================================")
+
+while True:                                  
+    işlem = input("Yapılacak işlemi seçiniz: ")  
+    
+    if işlem =="6":                              
+        print("Uygulamadan çıkılıyor.")          
+        break                                    
+    
+    elif işlem=="1":                                          
+        sayi1 = int(input("Toplanılacak 1. sayıyı giriniz: ")) 
+        sayi2 = int(input("Toplanılacak 2. sayıyı giriniz: ")) 
+        print(sayi1, "+", sayi2, "=", sayi1+sayi2)             
+        
+    elif işlem=="2":                                        
+        sayi1 = int(input("Çıkartılacak 1. sayıyı giriniz: "))   
+        sayi2 = int(input("Çıkartılacak 2. sayıyı giriniz: "))  
+        print(sayi1, "-", sayi2, "=", sayi1-sayi2)             
+                                             
+    elif işlem=="3":                                          
+        sayi1 = int(input("Çarpılacak 1. sayıyı giriniz: "))     
+        sayi2 = int(input("Çarpılacak 2. sayıyı giriniz: "))  
+        print(sayi1, "*", sayi2, "=", sayi1*sayi2)               
+ 
+            
+    elif işlem=="4":                                         
+        sayi1 = int(input("Bölünecek 1.sayıyı giriniz: "))          
+        sayi2 = int(input("0 hariç bölünecek 2.sayı giriniz: "))  
+        print(sayi1, "/", sayi2, "=", sayi1/sayi2 )                
+        
+    elif işlem=="5":                                      
+        sayi1 = int(input("Üslü alınacak 1. sayıyı giriniz: "))  
+        sayi2 = int(input("Üslü alınacak 2. sayıyı giriniz: ")) 
+        print(sayi1, "**", sayi2, "=", sayi1**sayi2)               
+       
+    else:                                      
+        print("Yanlış giriş yapdınız lütfen tekrar giriş yapınız.") 
+
