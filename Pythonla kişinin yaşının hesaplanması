@@ -1,0 +1,8 @@
+b = input (" adınızı giriniz : ")              #kullanıcının adı isteniliyor
+c = input (" soyAdınızı giriniz : ")           #kullanıcının soyadı isteniliyor
+e = int(input(" dogum tarihinizi giriniz :"))  #kullanıcının dogum tarihi isteniliyor
+f = 2020
+a = 'Merhaba'
+g = 'yaşındasınız'
+yaş = f-e 
+print(a , b , c , yaş , g) #kullanıcının bilgilerinin oldugu yer
