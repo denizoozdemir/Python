@@ -1,0 +1,5 @@
+for i in range(1000,9999):        # 1000 ile 9999'e kadar olan sayıları yazdırıyoz.
+        s = str(i)                # sayıları düz şekilde yazdırdık.
+        t = s[::-1]               # sayıları testen yazdırdık.
+        if s == t:                #ters yazıları ve düz yazılan yazıyı eşit ise yapılacaklar yazdırdık.
+                print(s)          #koşula uyanları yazdırdık.
