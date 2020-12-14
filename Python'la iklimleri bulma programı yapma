@@ -1,0 +1,38 @@
+print("===============MEVSİM ÖGRENME=============") 
+print("= [1]- Ocak                              =") 
+print("= [2]- Şubat                             =") 
+print("= [3]- Mart                              =") 
+print("= [4]- Nisan                             =") 
+print("= [5]- Mayıs                             =")
+print("= [6]- Haziran                           =") 
+print("= [7]- Temuz                             =") 
+print("= [8]- Agustos                           =") 
+print("= [9]- Eylül                             =") 
+print("= [10]- Ekim                             =") 
+print("= [11]- Kasım                            =")
+print("= [12]- Aralık                           =")
+print("= [13]- Çıkış Yap                        =") 
+print("==========================================") 
+
+while True:                                        
+    
+    işlem = input("Yapmak istedigin ayın numarasını yazınız: ") 
+    
+    if işlem=="12" or işlem=="1" or işlem=="2": 
+        print("Kış zamanına denk geliyor.")    
+        
+    elif işlem=="3" or işlem== "4" or işlem=="5": 
+        print("İlkbahar zamanına denk geliyor.")  
+        
+    elif işlem=="6" or işlem=="7" or işlem=="8":  
+        print("Yaz zamanına denk geliyor.")       
+        
+    elif işlem=="9" or işlem=="10" or işlem=="11": 
+        print("Sonbahar zamanına denk geliyor.")   
+       
+    elif işlem=="13":                              
+        print("Çıkış yapılıyor...")                
+        break                                   
+    
+    else:                                          
+        print("Yanlış giriş yaptınız lütfen tekrar giriniz: ") 
