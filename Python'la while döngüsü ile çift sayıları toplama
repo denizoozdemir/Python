@@ -1,0 +1,7 @@
+sayac = 0 
+toplam=0  
+while sayac<= 20: 
+    sayac=sayac+ 2 
+    toplam=toplam+sayac 
+ 
+print("0 ile 20 arasındaki çift sayıların toplam:{0}".format(toplam)) 
