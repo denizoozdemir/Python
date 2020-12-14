@@ -1,0 +1,72 @@
+a = int(input("Lütfen rüzgarın hızını giriniz: "))
+d = int(input("Lütfen yönünü giriniz(0-360): "))   
+
+c =(a*54)/100
+b=int(c)
+if b==0:
+    print(b,"Knot, sakin-deniz dümdüz.")
+    
+elif 0<b<4:
+    print(b,"Knot, Esintili- çok küçük dalgacıklar.")
+    
+elif 3<b<7:
+    print(b,"Knot, Hafif rüzgar - küçük belirgin dalgacıklar.")
+    
+elif 6<b<11:
+    print(b,"Knot, Tatlı rüzgar- dalgacık tepeleri kırılmaya başlar.")
+
+elif 10<b<17:
+    print(b,"Knot, Orta rüzgar-küçük dalgalar büyür.")
+
+elif 16<b<22:
+    print(b,"Knot, Sert rüzgar- Tepeleri beyaz, köpüren 3 metreyi aşan dalgalar, oluşturuyor.")
+
+elif 21<b<28:
+    print(b,"Knot, Kuvvetli rüzgar -Büyük dalgalar oluşur.")
+    
+elif 27<b<34:
+    print(b,"Knot, Hafif rüzgar - Deniz kabarmaya başlar.")
+
+elif 33<b<41:
+    print(b,"Knot, Fırtına - 7m civarında yüksek dalgalar oluşur.") 
+
+elif 40<b<48:
+    print(b,"Knot, Kuvvetli fırtına - Yüksek dalga tepeleri yuvarlamaya başlar.")
+    
+elif 47<b<56:
+    print(b,"Knot, Tam fırtına- 12m ye kadar yüksek dalgalar gözlenir, deniz genelikle beyaz görünür.")
+
+elif 55<b<64:
+    print(b,"Knot, Çok şidetli fırtına - (11-15m arası dalga boyu) ")
+
+else:
+    print("Kasırga -Gökyüzu köpükle kaplanır, görüş mesafesi çok düşer 14m den büyük dalgalar görülmektedir.")
+ 
+ #======================================================================================================================================================================   
+    
+if 0<=d<=45:
+    print("Poyraz Kuzeydoğu")
+    
+elif 45<d<91:
+    print("Gündoğusu Doğu")
+
+elif 90<d<154:
+    print("Keşişleme Güneydoğu")
+
+elif 153<d<181:
+    print("Güney kıble")
+
+elif 180<d<226:
+    print("Lodos Güneybatı")
+
+elif 225<d<271:
+    print("Günbatısı")
+
+elif 270<d<316:
+    print("Karayel Kuzeybatı")
+
+elif 315<d<361:
+    print("Yıldız Kuzey")
+
+else:
+    print("Yanlış giriş yaptınız maksimum 360'a kadar girebilirsiniz.")
