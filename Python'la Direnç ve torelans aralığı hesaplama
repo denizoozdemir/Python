@@ -1,0 +1,100 @@
+print("==============================")                
+print("= [0] Siyah                  =")     
+print("= [1] Kahverengi             =")     
+print("= [2] Kırmızı                =")    
+print("= [3] Turuncu                =")   
+print("= [4] Sarı                   =")     
+print("= [5] Yeşil                  =")     
+print("= [6] Mavi                   =")   
+print("= [7] Mor                    =")    
+print("= [8] Gri                    =")   
+print("= [9] Beyaz                  =") 
+print("==============================")     
+print("= [10] Altın                 =")    
+print("= [11] Gümüş                 =")     
+print("==============================")     
+
+a = input("1 degeri giriniz(0-9 arasından): ") 
+b = input("2 degeri giriniz(0-9 arasından): ") 
+c = input("3 degeri giriniz(0-9 arasından): ") 
+d = input("4. değeri giriniz(10-11 arasından): ")  
+
+if a=="0":   
+    a="0"   
+elif a=="1":
+    a="1"    
+elif a=="2": 
+    a="2"   
+elif a=="3": 
+    a="3"   
+elif a=="4":
+    a="4"  
+elif a=="5": 
+    a="5"   
+elif a=="6": 
+    a="6"   
+elif a=="7": 
+    a="7"   
+elif a=="8": 
+    a="8"  
+else:      
+    a="9"  
+if b=="1"
+    b="1"
+elif b=="0"
+    b="0"   
+elif b=="2":
+    b="2" 
+elif b=="3":
+    b="3"  
+elif b=="4":
+    b="4"  
+elif b=="5":
+    b="5"  
+elif b=="6":
+    b="6"
+elif b=="7":
+    b="7"  
+elif b=="8":
+    b="8"  
+else:      
+    b="9"  
+if c=="0":  
+    c="0"    
+elif c=="1":
+    c="0"     
+elif c=="2":  
+    c="00"     
+elif c=="3":  
+    c="000"  
+elif c=="4": 
+    c="4"
+elif c=="5":
+    c="00000"  
+elif c=="6":  
+    c="000000" 
+elif c=="7": 
+    c="0000000" 
+elif c=="8":  
+    c="00000000" 
+else:  
+    c="000000000" 
+
+p=a+b+c 
+print("Direnç değeri:",p) 
+e =v+(v*5/100) 
+f=int(e) 
+t =v-(v*5/100)  
+w=int(t) 
+ü =v-(v*10/100)  
+ğ=int(ü) 
+i =v+(v*10/100) 
+q=int(i)  
+if d=="10": 
+    print("Tolerans aralığı:",w,"-",f)  
+
+elif d=="11": 
+    print("Tolerans aralığı:",ğ,"-",q)  
+else: 
+    print("Yanlış giriş yaptınız.")  
+ 
